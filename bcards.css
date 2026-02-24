@@ -1,0 +1,41 @@
+body{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-img{
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: -5px 5px 20px 0px black;
+    
+    
+}
+
+.card-img:hover{
+    transform: scale(1.05);
+}
+
+
+
+.card{
+    
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   border-bottom: 6px solid #bb9457;
+   background: #432818;
+   color: oldlace;
+   border-radius: 8px;
+   
+
+}
+
+.card:hover{
+    box-shadow: 0px 5px 10px 0px #432818;
+}
+
